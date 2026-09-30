@@ -6,10 +6,10 @@ export const SERVICES = [
     items: ["Domestic Tours (Assam, Northeast, Cherrapunji)", "International Tours", "Honeymoon Packages", "Family & Group Tours"]
   },
   {
-    title: "Transportation",
+    title: "Guwahati Taxi Service",
     description: "Reliable cab booking, Tempo Traveller & Bus rentals, Airport transfers.",
     icon: "Bus",
-    items: ["Cab Booking (Local & Outstation)", "Tempo Traveller & Bus Rentals", "Airport Pickup & Drop"]
+    items: ["Airport Pickup & Drop", "Local & Outstation Cabs", "Tempo Traveller & Bus Rentals"]
   },
   {
     title: "Hotel Booking",
@@ -149,6 +149,48 @@ export const PACKAGES = [
       "Eco Park",
       "Garden of Cave",
       "Mokodok Views Point"
+    ]
+  },
+  {
+    title: "Guwahati Local Sightseeing",
+    image: "https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?auto=format&fit=crop&q=80&w=2070",
+    originalPrice: 3000,
+    bestPrice: 2200,
+    attractions: [
+      "Kamakhya Temple Visit",
+      "Umananda Island (Peacock Island)",
+      "Brahmaputra River Sunset Cruise",
+      "Srimanta Sankaradeva Kalakshetra",
+      "Assam State Museum",
+      "Local Market Exploration"
+    ]
+  },
+  {
+    title: "Guwahati → Kaziranga Taxi",
+    image: "https://images.unsplash.com/photo-1547926158-7e447998632e?auto=format&fit=crop&q=80&w=2070",
+    originalPrice: 6500,
+    bestPrice: 5500,
+    attractions: [
+      "Direct Transfer to Kaziranga",
+      "AC Sedan/SUV Options",
+      "On-time Hotel Pickup",
+      "Professional Highway Driver",
+      "Stopover for Refreshments",
+      "Luggage Assistance"
+    ]
+  },
+  {
+    title: "Guwahati Airport → Shillong",
+    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2070",
+    originalPrice: 3500,
+    bestPrice: 2800,
+    attractions: [
+      "24/7 Airport Pickup",
+      "Scenic Hill Drive",
+      "Stop at Umiam Lake",
+      "Doorstep Drop in Shillong",
+      "Fixed Competitive Rates",
+      "Clean & Sanitized Vehicle"
     ]
   },
   {
@@ -461,6 +503,24 @@ export const CONTACT_INFO = {
 };
 
 export const CAB_SERVICES = [
+  {
+    type: "Railway Station to Airport",
+    models: "Hatchback / Sedan / SUV",
+    capacity: "4+1 / 6+1 Seater",
+    price: "₹600",
+    description: "Fastest transfer from Guwahati Railway Station to Lokpriya Gopinath Bordoloi International Airport.",
+    image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=2070",
+    features: ["On-time Guarantee", "Luggage Support", "Platform Pickup", "Fixed Pricing"]
+  },
+  {
+    type: "Kamakhya Temple Special",
+    models: "Alto / Dzire / Innova",
+    capacity: "4+1 / 6+1 Seater",
+    price: "₹1,500",
+    description: "Dedicated spiritual tour from any Guwahati location to Maa Kamakhya Temple with waiting time included.",
+    image: "https://images.unsplash.com/photo-1624440026214-e0e64c8dcf93?auto=format&fit=crop&q=80&w=2070",
+    features: ["Waiting Time Included", "Expert Driver", "Doorstep Pickup", "AC/Non-AC Options"]
+  },
   {
     type: "Hatchback",
     models: "Alto 800, Celerio, WagonR",

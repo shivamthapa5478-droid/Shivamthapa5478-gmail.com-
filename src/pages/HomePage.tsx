@@ -242,7 +242,7 @@ export default function HomePage() {
               Explore the Unexplored
             </Badge>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Best Guwahati Taxi Service <br /> & Tours with <span className="text-emerald-500">NYRAV</span>
+              24/7 <span className="text-emerald-500">Guwahati Taxi Service</span> <br /> & Tours with NYRAV
             </h1>
             <p className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto leading-relaxed">
               Leading provider of 24/7 reliable Guwahati taxi services and customized Northeast India tour packages. Comfortable rides, professional drivers.
@@ -404,25 +404,37 @@ export default function HomePage() {
             <p className="text-zinc-500 max-w-2xl mx-auto">Providing round-the-clock transportation within Guwahati city and for all your outstation needs.</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
             {[
               {
-                title: "Guwahati Airport Transfer",
-                desc: "Fixed rate taxi service from Guwahati Airport to City, Shillong, or Kaziranga. 24/7 pickup and drop.",
+                title: "Airport Transfer",
+                desc: "Fixed rate taxi from Guwahati Airport to City, Shillong, or Kaziranga. 24/7 pickup.",
                 features: ["On-time Pickup", "Uniformed Drivers", "Luggage Support"],
-                price: "From ₹600"
+                price: "₹600"
               },
               {
-                title: "Local Sightseeing Taxi",
-                desc: "Explore Kamakhya Temple, Brahmaputra Cruise, and local museums with our specialized sightseeing cabs.",
+                title: "Railway Station Taxi",
+                desc: "Reliable cabs from Guwahati Railway Station to any part of the city or Northeast.",
+                features: ["Platform Pickup", "24/7 Availability", "Fair Pricing"],
+                price: "₹300"
+              },
+              {
+                title: "Local Sightseeing",
+                desc: "Explore Kamakhya Temple, Umananda, and local markets with our expert drivers.",
                 features: ["Daily Rental", "Expert Local Guide", "AC Comfort"],
-                price: "From ₹2,000"
+                price: "₹2,000"
               },
               {
-                title: "Outstation Cab Booking",
-                desc: "Reliable one-way or round-trip taxis from Guwahati to Shillong, Cherrapunji, Tawang, or Kaziranga.",
+                title: "Guwahati to Shillong",
+                desc: "Most popular route. Comfortable hatchbacks, sedans, and SUVs for your hill journey.",
+                features: ["Scenic Stopovers", "Hill Experts", "Doorstep Drop"],
+                price: "₹2,500"
+              },
+              {
+                title: "Outstation Trips",
+                desc: "Long distance taxis from Guwahati to Tawang, Cherranpunji, or Bhutan border.",
                 features: ["Wide Vehicle Choice", "Interstate Permits", "Safety First"],
-                price: "From ₹2,500"
+                price: "₹2,800"
               }
             ].map((service, i) => (
               <motion.div

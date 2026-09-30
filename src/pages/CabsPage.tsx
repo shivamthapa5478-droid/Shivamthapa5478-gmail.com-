@@ -143,9 +143,9 @@ export default function CabsPage() {
             transition={{ duration: 0.6 }}
           >
             <Badge className="bg-emerald-500/20 text-emerald-400 border-emerald-500/30 mb-6 py-1.5 px-4 text-sm">
-              Reliable & Affordable
+              24/7 Reliable & Affordable
             </Badge>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">Guwahati Taxi Services</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">Guwahati Taxi Service</h1>
             <p className="text-lg text-zinc-400 max-w-2xl mx-auto mb-10">
               Your trusted partner for 24/7 reliable taxi services in Guwahati. From airport transfers to local sightseeing and outstation trips across Northeast India.
             </p>
