@@ -449,7 +449,7 @@ export const REVIEWS = [
 ];
 
 export const CONTACT_INFO = {
-  phones: ["9383168900", "7004483286", "7665636162"],
+  phones: ["9383168900", "7004483286"],
   emails: ["nyravtoursandtravels@gmail.com", "shivamthapa5478@gmail.com"],
   website: "https://nyravtoursandtravels.in",
   hPanel: "https://nyrav-tours-and-travels-builder-bvk489fmv9rylg4i.hostingersite.com/",
